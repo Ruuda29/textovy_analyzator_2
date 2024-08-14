@@ -111,3 +111,5 @@ for item in serazeny_slovnik_delky_slov:
 f"{str(item).rjust(3)}| {(aktualni_hodnota) * "*"} "
 f"{"|".rjust(maximalni_hodnota - aktualni_hodnota + 2)}{aktualni_hodnota}"
 )
+
+print(oddelovac)
