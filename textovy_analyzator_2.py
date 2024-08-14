@@ -44,7 +44,7 @@ Welcome to the app, {username}
 We have 3 texts to be analyzed.
 {oddelovac}""")
 else:
-    print("unregistered user, terminating the program...")
+    print("Unregistered user, terminating the program...")
     quit()
 
 zvoleny_text = input("Enter a number btw. 1 and 3 to select: ")
@@ -56,7 +56,10 @@ if zvoleny_text.isnumeric() and int(zvoleny_text) >= 1 and int(zvoleny_text) <= 
         ocistene_slovo = slovo.strip(".,")
         ocisteny_seznam_slov.append(ocistene_slovo)
 else:
-    print("Nezadal si číslo v určeném rozsahu. Ukončuji...")
+    print(
+"You did not enter a number within the specified range, "
+"terminating the program..."
+)
     quit()
 
 pocet_slov = len(ocisteny_seznam_slov)
