@@ -1,3 +1,3 @@
 # textovy_analyzator_2
 
-Ahoj tada
+Textový analyzátor vol. 2 analyzuje texty
